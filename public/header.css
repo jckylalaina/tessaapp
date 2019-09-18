@@ -2,7 +2,11 @@
 	background-color: white;
 }
 
-nav a:hover{
-	background-color: #D3D3D3;
-	color: #D3D3D3;
+nav a{
+	font-size: 17px;
+	font-weight: bold;
+}
+nav .dropdown-item,.nav-link{
+	font-size: 17px;
+	font-weight: bold;
 }
