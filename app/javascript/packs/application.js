@@ -24,6 +24,7 @@ function myFunction() {
   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
     document.getElementById("ftco-navbar").classList.remove('bg-transparent')
     document.getElementById("ftco-navbar").classList.add('bg-dark')
+    document.getElementById("ftco-navbar").style.transition = "0.5s"
 
   } else {
     document.getElementById("ftco-navbar").classList.add('bg-transparent')
